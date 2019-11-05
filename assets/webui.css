@@ -18,10 +18,9 @@ a:hover {
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .Header {
-  background-color: white;
-  border-bottom: 1px solid #EBECEE;
+  background-color: black;
   box-shadow: none;
-  color: #22252B;
+  color: #F8AE46;
   height: 60px;
   margin-bottom: 40px;
   justify-content: space-between;
@@ -31,6 +30,9 @@ a:hover {
 .Header a {
   font-size: 21px;
   font-weight: 700;
+}
+.Header a:hover {
+  color: white;
 }
 
 .Header-Utils {
@@ -47,7 +49,7 @@ a:hover {
 }
 
 .Header-Utils a:hover svg path {
-  fill: #87898C;
+  fill: white;
 }
 
 /* Frame
